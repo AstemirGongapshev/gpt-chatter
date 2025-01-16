@@ -34,8 +34,8 @@ Replace your-base-url with the base URL for your GPT model, if required.
 Your .streamlit/secrets.toml should look something like this:
 
 [api]
-key = "your_actual_api_key"
-base_url = "your_actual_base_url"
+OPENAI_API_KEY = "your_actual_api_key"
+OPENAI_BASE_URL = "your_actual_base_url"
 
 ## Running the Application
 To run the GPT Chatter app, use the following command:
